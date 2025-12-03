@@ -3,5 +3,11 @@
   "buildCommand": "echo 'Using pre-built files'",
   "outputDirectory": ".",
   "framework": null,
-  "installCommand": "echo 'No install needed'"
+  "installCommand": "echo 'No install needed'",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
