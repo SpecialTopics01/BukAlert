@@ -1,236 +1,47 @@
-# Flutter/Dart
-.dart_tool/
-.packages
-.pub/
-build/
-flutter_*.png
-flutter_*.jpeg
-flutter_*.webp
-coverage/
+# Miscellaneous
+*.class
 *.log
-*.pid
-*.pid.lock
-*.tmp
+*.pyc
 *.swp
-*.swp.*
 .DS_Store
 .atom/
-.idea/
-.vscode/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
 *.iml
 *.ipr
 *.iws
-.idea_modules/
-.idea_modules/
-*.pbxproj
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-*.xcuserdatad
-*.moved-aside
-*.xccheckout
-*.xcscmblueprint
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/project.xcworkspace/
-!*.xcodeproj/project.xcworkspace/xcuserdata/
-*.xcodeproj/project.xcworkspace/xcuserdata/
-*.moved-aside
-*.pbxuser
-*.perspective
-*.perspectivev3
-*.xcscmblueprint
-*.xccheckout
-*.moved-aside
-*.user
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-*.xcuserdatad
-*.moved-aside
-*.xccheckout
-*.xcscmblueprint
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/project.xcworkspace/
-!*.xcodeproj/project.xcworkspace/xcuserdata/
-*.xcodeproj/project.xcworkspace/xcuserdata/
-*.moved-aside
-*.pbxuser
-*.perspective
-*.perspectivev3
-*.xcuserdatad
-*.moved-aside
-*.xccheckout
-*.xcscmblueprint
-
-# Firebase
-.firebase/
-firebase-debug.log
-firestore-debug.log
-ui-debug.log
-functions/.firebase/
-
-# Android
-android/app/debug
-android/app/profile
-android/app/release
-android/gradle
-android/Gradle/
-android/.gradle
-android/captures/
-android/gradlew
-android/gradlew.bat
-android/local.properties
-android/key.properties
-android/.idea/
-android/.settings/
-*.jks
-*.keystore
-
-# iOS
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/Flutter/App.framework
-ios/Flutter/Generated.xcconfig
-ios/Flutter/app.flx
-ios/Flutter/app.zip
-ios/Flutter/flutter_assets/
-ios/Pods/
-ios/.symlinks/
-ios/Flutter/Generated.xcconfig
-ios/Flutter/app.flx
-ios/Flutter/app.zip
-ios/Flutter/flutter_assets/
-ios/ServiceDefinitions.json
-ios/Runner/GeneratedPluginRegistrant.h
-ios/Runner/GeneratedPluginRegistrant.m
-ios/Flutter/App.framework
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/Pods/
-ios/.symlinks/
-ios/Flutter/Generated.xcconfig
-ios/Flutter/app.flx
-ios/Flutter/app.zip
-ios/Flutter/flutter_assets/
-ios/ServiceDefinitions.json
-ios/Runner/GeneratedPluginRegistrant.h
-ios/Runner/GeneratedPluginRegistrant.m
-ios/Flutter/App.framework
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/Pods/
-ios/.symlinks/
-ios/Flutter/Generated.xcconfig
-ios/Flutter/app.flx
-ios/Flutter/app.zip
-ios/Flutter/flutter_assets/
-ios/ServiceDefinitions.json
-ios/Runner/GeneratedPluginRegistrant.h
-ios/Runner/GeneratedPluginRegistrant.m
-
-# Windows
-windows/flutter/generated_plugin_registrant.cc
-windows/flutter/generated_plugin_registrant.h
-windows/runner.exe
-windows/.flutter-plugins
-windows/.flutter-plugins-dependencies
-
-# Linux
-linux/flutter/generated_plugin_registrant.cc
-linux/flutter/generated_plugin_registrant.h
-linux/.flutter-plugins
-linux/.flutter-plugins-dependencies
-
-# macOS
-macos/Flutter/GeneratedPluginRegistrant.swift
-macos/Flutter/App.framework
-macos/Flutter/Flutter.framework
-macos/Flutter/Flutter.podspec
-macos/Flutter/Generated.xcconfig
-macos/Flutter/app.flx
-macos/Flutter/app.zip
-macos/Flutter/flutter_assets/
-macos/Pods/
-macos/.symlinks/
-macos/Flutter/Generated.xcconfig
-macos/Flutter/app.flx
-macos/Flutter/app.zip
-macos/Flutter/flutter_assets/
-macos/ServiceDefinitions.json
-macos/Runner/GeneratedPluginRegistrant.h
-macos/Runner/GeneratedPluginRegistrant.m
-macos/Flutter/App.framework
-macos/Flutter/Flutter.framework
-macos/Flutter/Flutter.podspec
-macos/Pods/
-macos/.symlinks/
-
-# Web
-web/icons/Icon-192.png
-web/icons/Icon-512.png
-web/favicon.png
-
-# Vercel
-.vercel/
-.env.local
-
-# Node.js (for deployment scripts)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Logs
-logs
-*.log
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-
-# nyc test coverage
-.nyc_output
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Optional npm cache directory
-.npm
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# dotenv environment variables file
-.env
-
-# IDE files
-.vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+.vercel
+.env*.local
