@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'Using pre-built files'",
+  "outputDirectory": ".",
+  "framework": null,
+  "installCommand": "echo 'No install needed'"
+}

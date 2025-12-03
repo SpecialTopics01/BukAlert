@@ -1,0 +1,49 @@
+# Flutter project files (not needed for web deployment)
+android/
+ios/
+linux/
+macos/
+windows/
+lib/
+test/
+analysis_options.yaml
+*.iml
+
+# Development files
+.git/
+.github/
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# Build artifacts (except web build)
+build/
+!build/web/
+
+# Documentation (optional - can be removed for production)
+*.md
+!README.md
+
+# Deployment scripts (optional)
+deploy.sh
+deploy.bat
+package.json
+
+# Firebase config (should be in environment variables)
+firebase_options.dart
+
+# Development dependencies
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Node modules (if any)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel

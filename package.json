@@ -1,0 +1,28 @@
+{
+  "name": "bukalert-web",
+  "version": "1.0.0",
+  "description": "BukAlert - Emergency Response System (Web Version)",
+  "main": "index.js",
+  "scripts": {
+    "build": "flutter build web --release",
+    "deploy": "vercel --prod",
+    "deploy:preview": "vercel",
+    "clean": "flutter clean"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "keywords": [
+    "flutter",
+    "emergency",
+    "response",
+    "web",
+    "vercel"
+  ],
+  "author": "BukAlert Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  }
+}
